@@ -40,4 +40,62 @@ button{
     border:1px solid #4f8cff;
     padding:20px;
     width:250px;
+}.features {
+  padding: 60px 10%;
+  text-align: center;
+  background-color: #07111f;
+  color: white;
+}
+
+.features h2,
+.about h2 {
+  font-size: 36px;
+  color: #38bdf8;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #0f172a;
+  border: 1px solid #38bdf8;
+  border-radius: 12px;
+  padding: 25px;
+  width: 280px;
+  box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+}
+
+.card h3 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #dbeafe;
+  line-height: 1.6;
+}
+
+.about {
+  padding: 60px 15%;
+  text-align: center;
+  background-color: #020617;
+  color: white;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #dbeafe;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #000814;
+  color: #94a3b8;
 }
