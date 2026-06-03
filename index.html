@@ -86,7 +86,15 @@
         <p>Allows easier navigation without using a mouse.</p>
     </div>
 </section>
+<button onclick="activateAura()">Activate Aura</button>
+<p id="auraMessage"></p>
 
+<script>
+function activateAura() {
+  document.getElementById("auraMessage").innerHTML =
+    "Aura accessibility mode activated successfully!";
+}
+</script>
 <footer>
   <p>Created by Iman Sheiko | Aura Project</p>
 </footer>
